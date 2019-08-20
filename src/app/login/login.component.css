@@ -1,0 +1,206 @@
+.left{
+  text-align: center;
+  padding-top: 40px;
+
+
+}
+.main-img{
+    width: 550px;
+    float: right;
+    /* margin-right: -200px; */
+
+}
+.main-login{
+  margin: 0;
+  padding: 0;
+}
+.LoginHeading strong{
+    font-size: 3rem!important;
+    color: white;
+}
+#login{
+  text-align: center;
+  margin-top: 60px;
+
+  
+}
+.profile img{
+  margin-top: 15%
+}
+
+.loginback{
+  /* background: url("../../assets/Images/WEB\(1.png")  fixed; */
+
+}
+.badges{
+  padding-right: 40px;
+
+}
+
+.right{
+    background: url("../../assets/Images/login-background.png")  fixed;
+    /* opacity: 0.4; */
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 900px;
+  min-height: 100%;
+  width: 100%;
+  /* position: fixed; */
+
+  /* min-width: 1024px; */
+}
+.view {
+    /* background: url("https://mdbootstrap.com/img/Photos/Others/img (40).jpg")no-repeat center center ; */
+    
+    /* background: url("../../assets/Images/background.png") no-repeat center center fixed; 
+    background: #d66efa; /* Old browsers */
+    background: #9b3bdd; /* Old browsers */
+    background: -moz-linear-gradient(left, #9b3bdd 0%, #0f66ad 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #9b3bdd 0%,#0f66ad 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #9b3bdd 0%,#0f66ad 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.ML-90{
+  margin-left: 90px;
+
+}
+.fl-Right{
+  float: right;
+}
+/* login */
+
+
+/* #login .container #login-row #login-column .login-box { */
+  /* margin-top: 120px; */
+  /* max-width: 600px; */
+  /* height: 320px; */
+  /* border: 1px solid #9C9C9C; */
+  /* background-image: linear-gradient(to bottom, #aec1c3, #a9b5b7, #bcc5c6, #cfd5d5, #e3e5e5); */
+/* } */
+/* #login .container #login-row #login-column .login-box #login-form {
+  padding: 20px;
+}
+#login .container #login-row #login-column .login-box #login-form #register-link {
+  margin-top: -85px;
+}    */
+
+
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+  background-color: rgb(225, 225, 225,0.4);
+  border-radius: 25px;
+    padding: 5px;
+    margin: 20px auto;
+    
+
+}
+#login-column label{
+  color: #b984e5;
+}
+.profile{
+  width: 80px;
+  height:80px;
+  text-align: center;
+  display: inline-block;
+border-radius: 50%;
+background: #d66efa; /* Old browsers */
+background: -moz-linear-gradient(top, #d66efa 0%, #8591f4 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #d66efa 0%,#8591f4 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #d66efa 0%,#8591f4 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.signin{
+  border-radius: 25px;
+}
+
+.icon {
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  color: #50558e;
+  min-width: 50px;
+  text-align: center;
+  font-size: 22px;
+  
+}
+.pass{
+  margin-left: 130px;
+
+}
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  background: transparent;
+  border: transparent;
+}
+
+.input-field:focus {
+  border: 2px solid rgb(227, 239, 252);
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: rgba(255,255,255,0.8);
+  color: #50558e;
+  /* color: white; */
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 25px;
+  margin-bottom: 15px;
+
+}
+.btn1{
+  background-color: rgba(255,255,255,0.8);
+  color: black;
+  /* color: white; */
+  padding: 9px 20px;
+  border: none;
+  cursor: pointer;
+  width: 85%;
+  opacity: 0.9;
+  border-radius: 13px;
+  margin-bottom: 15px;
+}
+.input-field::placeholder{
+  color: #ccadec;
+}
+
+
+.btn:hover {
+  opacity: 1;
+}
+.badges img{
+  height:35;
+}
+@media only screen and (max-width: 768px) {
+  .badges img{
+      height:35;
+  }
+  .left-content img{
+      width: 140px;
+  }
+}
