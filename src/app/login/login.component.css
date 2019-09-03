@@ -29,7 +29,7 @@
 }
 
 .loginback{
-  /* background: url("../../assets/Images/WEB\(1.png")  fixed; */
+  /* background: url("../../assets/images/WEB\(1.png")  fixed; */
 
 }
 .badges{
@@ -38,7 +38,7 @@
 }
 
 .right{
-    background: url("../../assets/Images/login-background.png")  fixed;
+    background: url("../../assets/images/login-background.png")  fixed;
     /* opacity: 0.4; */
     -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -46,7 +46,7 @@
   background-size: cover;
   height: 900px;
   min-height: 100%;
-  width: 100%;
+  /* width: 100%; */
   /* position: fixed; */
 
   /* min-width: 1024px; */
@@ -54,7 +54,7 @@
 .view {
     /* background: url("https://mdbootstrap.com/img/Photos/Others/img (40).jpg")no-repeat center center ; */
     
-    /* background: url("../../assets/Images/background.png") no-repeat center center fixed; 
+    /* background: url("../../assets/images/background.png") no-repeat center center fixed; 
     background: #d66efa; /* Old browsers */
     background: #9b3bdd; /* Old browsers */
     background: -moz-linear-gradient(left, #9b3bdd 0%, #0f66ad 100%); /* FF3.6-15 */

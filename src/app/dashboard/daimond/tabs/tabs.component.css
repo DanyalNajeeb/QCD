@@ -1,0 +1,15 @@
+.nav-tabs  .nav-item{
+    background-color: rgb(227, 227, 227);
+}
+.nav-tabs .nav-item:active{
+    font-weight: bold!important;
+    background-color: white;
+}
+.tab-content{
+    background: white;
+}
+.nav > li > a{
+    padding: 7px 35px;
+    color: black;
+
+}
