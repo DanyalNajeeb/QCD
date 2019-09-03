@@ -16,6 +16,7 @@ import { SearchComponent } from './dashboard/daimond/tabs/search/search.componen
 import { ParcelComponent } from './dashboard/daimond/tabs/parcel/parcel.component';
 import { GradeComponent } from './dashboard/daimond/tabs/grade/grade.component';
 import { BasicComponent } from './dashboard/daimond/tabs/search/basic/basic.component';
+import { DashHomeComponent } from './dashboard/dash-home/dash-home.component';
 
 const appRoutes:Routes=[
   {path:'home' , component:HomeComponent},
@@ -55,7 +56,9 @@ const appRoutes:Routes=[
     
     GradeComponent,
     
-    BasicComponent
+    BasicComponent,
+    
+    DashHomeComponent
   ],
   imports: [
     BrowserModule,
