@@ -17,6 +17,9 @@ import { ParcelComponent } from './dashboard/daimond/tabs/parcel/parcel.componen
 import { GradeComponent } from './dashboard/daimond/tabs/grade/grade.component';
 import { BasicComponent } from './dashboard/daimond/tabs/search/basic/basic.component';
 import { DashHomeComponent } from './dashboard/dash-home/dash-home.component';
+import { PreferenceComponent } from './dashboard/daimond/tabs/search/preference/preference.component';
+import { MeasurmentComponent } from './dashboard/daimond/tabs/search/measurment/measurment.component';
+import { TreatmentComponent } from './dashboard/daimond/tabs/search/treatment/treatment.component';
 
 const appRoutes:Routes=[
   {path:'home' , component:HomeComponent},
@@ -58,7 +61,13 @@ const appRoutes:Routes=[
     
     BasicComponent,
     
-    DashHomeComponent
+    DashHomeComponent,
+    
+    PreferenceComponent,
+    
+    MeasurmentComponent,
+    
+    TreatmentComponent
   ],
   imports: [
     BrowserModule,

@@ -1,7 +1,108 @@
 .basic .row{
 margin: 0;
-padding: 10px
+padding: 10px;
+
 }
-#_basic div{
-    padding: 0 30px;
+.inclu{
+    height: 165px!important;
 }
+#_basic label{
+    height: 80px;
+    width: 80px;
+}
+
+label {
+    font-weight: 400!important;
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+.check
+{
+    opacity:0.5;
+	color:#996;
+	
+}
+.block-select label{
+    background-color: #f3f3f3;
+    color: black;
+    border: none;
+    border-right:1px solid rgb(218, 219, 219);
+    border-bottom: 1px solid rgb(218, 219, 219);
+    border-radius: 0px;
+
+}
+.size .block-select label{
+        height: 60px;
+        padding: 6px;
+}
+.color .block-select label{
+    height: 60px;
+    padding: 20px;
+}
+.size .block-select label span{
+line-height: 3.5;
+
+}
+.clarity label{
+   padding: 15px 22px;
+    
+}
+.Report label{
+    padding: 20px;
+}
+.intensity label{
+    padding: 18px 19px;
+}
+.block-select label i{
+    display: block;
+    font-size: 40px;
+    padding-bottom: 8px;
+
+}
+.basic .row{
+border-bottom: 1px solid #d2d2d2;
+height: 100px;
+}
+.square-box{
+    width: 50px;
+    background: aquamarine;
+    height: 50px;
+
+}
+
+.page-header{
+    padding: 0px;
+    border: none;
+    margin: 0;
+}
+
+.block-select{
+    display: inline-block;
+}
+.form-group{
+    margin: 0px;
+}
+.float-label-control { position: relative; margin-bottom: 1.5em; }
+    .float-label-control ::-webkit-input-placeholder { color: #aaa;
+    font-size: 15px; }
+    .float-label-control :-moz-placeholder { color: #aaa; }
+    .float-label-control ::-moz-placeholder { color: #aaa; }
+    .float-label-control :-ms-input-placeholder { color: #aaa; }
+    .float-label-control input:-webkit-autofill,
+    .float-label-control textarea:-webkit-autofill { background-color: transparent !important; -webkit-box-shadow: 0 0 0 1000px white inset !important; -moz-box-shadow: 0 0 0 1000px white inset !important; box-shadow: 0 0 0 1000px white inset !important; }
+    .float-label-control input, .float-label-control textarea, .float-label-control label { font-size: 1.3em; box-shadow: none; -webkit-box-shadow: none; }
+        .float-label-control textarea:focus { padding-bottom: 4px; }
+    .float-label-control input, .float-label-control textarea {
+        
+        background-color: whitesmoke!important  ;
+        display: block; width: 100%; padding: 0.1em 0em 1px 0.5em; border:none;border-bottom: 2px solid #e62a7d; border-radius: 0px; outline: none;     margin-top: 8px;
+        background: none; }
+    .float-label-control textarea { padding: 0.1em 0em 5px 1em; }
+   
+
+
+   

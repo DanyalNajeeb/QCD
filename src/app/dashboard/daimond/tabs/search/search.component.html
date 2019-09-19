@@ -1,19 +1,31 @@
 <div class="container-fluid">
 
     <div class="filters bars">
-      <div class="col-sm-5">
-        <p>Load Saved Searches</p>
-      </div>
-      <div class="col-sm-4">
-        <p>Save Search</p>
-      </div>
-      <div class="col-sm-2">
-        <p>Search</p>
-      </div>
+
+        <ul class="list-inline">
+          <li class="list-inline-item">
+              <p>Load Saved Searches</p>
+          </li>
+          <li class="list-inline-item">
+              <p>Save Search</p>
+            </li>
+            <li class="list-inline-item">
+                <button class="btn btn-primary btn-lg" type="submit">Search</button>
+
+            </li>
+            <li class="list-inline-item">
+                  <button class="btn btn-primary btn-lg" type="submit">Reset</button>
+
+            </li>
+            
+          </ul>
+    
       
-      <div class="col-sm-1">
-        <p>reset</p>
-      </div>
+      
+      
+    
+
+      
     </div>
     <div class="col-sm-12 bars basic">
       <button data-toggle="collapse" data-target="#basic" class="btn btn-primary btn-block">
@@ -35,7 +47,7 @@
       </button>
   
         <div id="preference" class="collapse">
-        Lorem ipsum dolor text....
+        <app-preference></app-preference>
         </div>
   
     </div>
@@ -47,7 +59,7 @@
         </button>
     
           <div id="measurment" class="collapse">
-          Lorem ipsum dolor text....
+          <app-measurment></app-measurment>
           </div>
     
     </div>
@@ -59,7 +71,7 @@
         </button>
     
           <div id="treatment" class="collapse">
-          Lorem ipsum dolor text....
+          <app-treatment></app-treatment>
           </div>
     
     </div>
