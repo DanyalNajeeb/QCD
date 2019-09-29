@@ -17,6 +17,8 @@
 .bars i{
     font-size: 40px
 }
+.tabs-btn{
+    background: linear-gradient(to left, #9b3bdd 70%, #0f66ad 217%);}
 /* .btn{
     padding: 0 12px!important;
 } */

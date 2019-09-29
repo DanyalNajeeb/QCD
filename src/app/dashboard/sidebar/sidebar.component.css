@@ -44,7 +44,7 @@
     background: -webkit-linear-gradient(top, #0f66ad 0%, #9b3bdd 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to top, #0f66ad 0%, #9b3bdd 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     padding-left:5px;
-    height: -webkit-fill-available;
+    height: 617px;
  }
  
  #sidebar .collapse.in {

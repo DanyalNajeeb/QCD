@@ -44,6 +44,18 @@
         height: 50px;
     
     }
+    .block-select label{
+        background-color: #f3f3f3;
+        color: black;
+        border: none;
+        border-right:1px solid rgb(218, 219, 219);
+        border-bottom: 1px solid rgb(218, 219, 219);
+        border-radius: 0px;
+    
+    }
+    .block-select{
+        display: inline-block;
+    }
     
     .page-header{
         padding: 0px;

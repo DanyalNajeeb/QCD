@@ -57,6 +57,9 @@ line-height: 3.5;
 .intensity label{
     padding: 18px 19px;
 }
+.repSpec label{
+padding: 17px;
+}
 .block-select label i{
     display: block;
     font-size: 40px;
@@ -96,13 +99,24 @@ height: 100px;
     .float-label-control textarea:-webkit-autofill { background-color: transparent !important; -webkit-box-shadow: 0 0 0 1000px white inset !important; -moz-box-shadow: 0 0 0 1000px white inset !important; box-shadow: 0 0 0 1000px white inset !important; }
     .float-label-control input, .float-label-control textarea, .float-label-control label { font-size: 1.3em; box-shadow: none; -webkit-box-shadow: none; }
         .float-label-control textarea:focus { padding-bottom: 4px; }
-    .float-label-control input, .float-label-control textarea {
+    .float-label-control input, .float-label-control textarea,.float-label-control select {
         
         background-color: whitesmoke!important  ;
-        display: block; width: 100%; padding: 0.1em 0em 1px 0.5em; border:none;border-bottom: 2px solid #e62a7d; border-radius: 0px; outline: none;     margin-top: 8px;
+        display: block; width: 100%; padding: 0.1em 0em 1px 0.5em; border:none;border-bottom: 2px solid #9b3bdd; border-radius: 0px; outline: none;     margin-top: 8px;
         background: none; }
-    .float-label-control textarea { padding: 0.1em 0em 5px 1em; }
+    .float-label-control textarea  { padding: 0.1em 0em 5px 1em; }
    
-
+    .modal-header-info {
+        color:#fff;
+        padding:9px 15px;
+        border-bottom:1px solid #eee;
+        background-color: #5bc0de;
+        -webkit-border-top-left-radius: 5px;
+        -webkit-border-top-right-radius: 5px;
+        -moz-border-radius-topleft: 5px;
+        -moz-border-radius-topright: 5px;
+         border-top-left-radius: 5px;
+         border-top-right-radius: 5px;
+    }
 
    
