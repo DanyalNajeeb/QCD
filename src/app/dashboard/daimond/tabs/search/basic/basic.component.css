@@ -1,6 +1,7 @@
 .basic .row{
 margin: 0;
 padding: 10px;
+border-bottom: 1px solid #d2d2d2;
 
 }
 .inclu{
@@ -47,6 +48,11 @@ label {
 line-height: 3.5;
 
 }
+br{
+    display: block;
+    margin-top: -5px;
+    content: "";
+}
 .clarity label{
    padding: 15px 22px;
     
@@ -62,14 +68,17 @@ padding: 17px;
 }
 .block-select label i{
     display: block;
-    font-size: 40px;
-    padding-bottom: 8px;
+    font-size: 30px;
+
 
 }
-.basic .row{
-border-bottom: 1px solid #d2d2d2;
-height: 100px;
+.block-select p{
+    font-size: 12px;
 }
+.block-select label i img{
+    width: 75%;
+}
+
 .square-box{
     width: 50px;
     background: aquamarine;
